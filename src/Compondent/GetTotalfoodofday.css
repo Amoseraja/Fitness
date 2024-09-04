@@ -1,0 +1,89 @@
+.get-total-food-container {
+    max-width: 70%; /* Further reduced max-width */
+    margin: 10px auto; /* Reduced margin */
+    padding: 15px; /* Further reduced padding */
+    border: 1px solid #d0d0d0;
+    border-radius: 6px; /* Further reduced border-radius */
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Reduced shadow */
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.get-total-food-container:hover {
+    transform: scale(1.01); /* Further reduced scale */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lighter hover shadow */
+}
+
+.get-total-food-container h2 {
+    text-align: center;
+    margin-bottom: 10px; /* Further reduced margin */
+    font-size: 18px; /* Further reduced font size */
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.get-total-food-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px; /* Further reduced gap */
+}
+
+.get-total-food-container label {
+    font-size: 12px; /* Further reduced font size */
+    color: #2c3e50;
+    margin-bottom: 3px; /* Reduced margin */
+}
+
+.get-total-food-container input[type="date"] {
+    padding: 6px; /* Further reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Reduced border-radius */
+    font-size: 12px; /* Further reduced font size */
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.get-total-food-container input[type="date"]:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.get-total-food-container button {
+    padding: 8px; /* Further reduced padding */
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px; /* Reduced border-radius */
+    cursor: pointer;
+    font-size: 13px; /* Further reduced font size */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.get-total-food-container button:hover {
+    background-color: #218838;
+    transform: translateY(-1px); /* Reduced transform */
+}
+
+.get-total-food-container .total-food-intake {
+    margin-top: 15px; /* Further reduced margin */
+    font-size: 14px; /* Further reduced font size */
+    color: #34495e;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .get-total-food-container {
+        padding: 10px; /* Reduced padding for small screens */
+    }
+
+    .get-total-food-container h2 {
+        font-size: 16px; /* Reduced font size for small screens */
+    }
+
+    .get-total-food-container button {
+        font-size: 12px; /* Reduced font size for small screens */
+    }
+}

@@ -1,0 +1,63 @@
+/* Signup.css */
+
+/* Container Styling */
+container {
+  max-width: 400px;            /* Container width */
+  margin: 50px auto;           /* Center the form */
+  padding: 20px;               /* Inner padding */
+  border: 1px solid #ddd;      /* Border around the container */
+  border-radius: 10px;         /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #f9f9f9;   /* Background color */
+  box-sizing: border-box;      /* Include padding and border in the element's total width and height */
+}
+
+/* Header Styling */
+ h2 {
+  text-align: center;          /* Centered text */
+  margin-bottom: 20px;         /* Space below the heading */
+  color: #923232;                 /* Text color */
+}
+
+/* Form Styling */
+ form {
+  display: flex;
+  flex-direction: column;      /* Stack form elements vertically */
+}
+
+/* Input, Select, Textarea Styling */
+ input,
+ select,
+ textarea {
+  margin-bottom: 15px;         /* Space below each form element */
+  padding: 10px;               /* Inner padding */
+  font-size: 16px;             /* Font size */
+  border-radius: 5px;          /* Rounded corners */
+  border: 1px solid #ccc;      /* Border around inputs */
+  box-sizing: border-box;      /* Include padding and border in the element's total width and height */
+}
+
+/* Button Styling */
+ button {
+  padding: 10px;               /* Padding inside the button */
+  font-size: 18px;             /* Font size */
+  color: #a33232;                 /* Text color */
+  background-color: #131415;   /* Button background color */
+  border: none;                /* Remove border */
+  border-radius: 5px;          /* Rounded corners */
+  cursor: pointer;             /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth color transition on hover */
+  box-sizing: border-box;      /* Include padding and border in the element's total width and height */
+}
+
+/* Button Hover Effect */
+ button:hover {
+  background-color: #0056b3;   /* Darker blue on hover */
+}
+
+/* Response Message Styling */
+ p {
+  margin-top: 15px;            /* Space above the message */
+  text-align: center;          /* Centered text */
+  color: #d9534f;              /* Text color */
+}

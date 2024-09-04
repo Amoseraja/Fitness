@@ -1,0 +1,46 @@
+/* Styling for the BMI component */
+.bmi-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .bmi-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .bmi-input-container {
+    margin-bottom: 10px;
+  }
+  
+  .bmi-input {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .bmi-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .bmi-button:hover {
+    background-color: #45a049;
+  }
+  
+  .bmi-result {
+    margin-top: 20px;
+  }
+  
+  .bmi-result h2, .bmi-result h3 {
+    margin: 5px;
+  }
+  

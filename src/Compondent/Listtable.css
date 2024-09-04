@@ -1,0 +1,49 @@
+/* DailyFoodList.css */
+
+.food-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food-list-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.food-day {
+    margin-bottom: 20px;
+}
+
+.food-day h3 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.food-item {
+    list-style: none;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.food-item span {
+    font-size: 14px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}

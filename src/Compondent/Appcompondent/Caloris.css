@@ -1,0 +1,66 @@
+/* Caloris.css */
+
+/* Container for the card layout */
+.container1 {
+  padding: 20px;
+}
+
+/* Custom card styles */
+.custom-card1 {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%; /* Full width of the parent container */
+  max-width: 300px; /* Maximum width for cards */
+  height: auto; /* Auto height to maintain aspect ratio */
+}
+
+/* Card body styles */
+.custom-card-body1 {
+  padding: 20px;
+}
+
+/* Card title styles */
+.custom-card-title1 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px; /* Space below the title */
+}
+
+/* Card text styles */
+.custom-card-text1 {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Button styles */
+.add-food-button {
+  margin: 10px 0;
+  width: 100%; /* Full width of the parent container */
+  max-width: 200px; /* Maximum width for buttons */
+  height: 40px; /* Fixed height for buttons */
+  display: block; /* Block display for full width */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .col-md-4 {
+    margin-bottom: 20px;
+    width: 100%; /* Full width of the parent container on small screens */
+  }
+  
+  .custom-card1 {
+    max-width: 100%; /* Full width of the parent container on small screens */
+  }
+  
+  .add-food-button {
+    max-width: 100%; /* Full width of the parent container on small screens */
+  }
+}
